@@ -1,0 +1,11 @@
+body{
+	text-align: left;
+	font: 18px justify Times, Arial, "Times new roman";
+}
+.titre2{
+	font-weight: bold;
+}
+.titre1{
+	text-decoration: underline;
+	font-weight: bold;
+}

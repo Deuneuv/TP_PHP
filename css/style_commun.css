@@ -1,0 +1,20 @@
+body{
+background: silver;
+}
+a:link {
+color: blue;
+	}
+
+a:visited {
+color: #BA55D3;
+	}
+a:hover{
+	color:black;
+}
+.centrer{
+text-align: center;
+}
+.validator{
+height:31px;
+width:88px;
+}

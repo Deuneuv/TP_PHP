@@ -1,0 +1,22 @@
+body{
+	text-align: center;
+}
+h1{
+	text-align: left;
+	font-size: 46px;
+	font-weight: normal;
+}
+#auteur{
+	font-weight: bold;
+	text-transform : uppercase;
+}
+
+blockquote{
+	margin-left: 100px;
+	text-align: left;
+	color: olive;
+	font-family: Arial, Times, "Comic sans MS";
+}
+#fin{
+	text-align: left;
+}

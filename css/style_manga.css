@@ -1,0 +1,33 @@
+ h1 {
+color: navy; 
+}  
+h2 {
+color: green; 
+} 
+p  { 
+font-size: 18px; 
+font-family: "Times New Roman", Times, serif;
+}
+div{
+padding: 20px 20px 20px 80px;
+}
+.holic{
+position:absolute;
+top: 50px;
+left: 50px;
+}
+.sakura{
+position:absolute;
+top: 50px;
+right: 50px;
+}
+.nana{
+position:absolute;
+bottom: 50px;
+left: 50px;
+}
+.basket{
+position:absolute;
+bottom: 50px;
+right: 50px;
+}

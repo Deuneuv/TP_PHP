@@ -1,0 +1,28 @@
+table{ 
+border:solid 3px black;
+}
+
+tr, td{ 
+border:solid 1px green; 
+text-align: right;
+}
+th{
+background-color:#99FF66;
+text-align: center;
+}
+
+.gris{
+background-color: gray;
+}
+.centre{
+text-align: center;
+}
+.droite{
+text-align:left;
+}
+#rouge{
+background-color:red;
+}
+#pointille{
+border: dotted 5px navy;
+}

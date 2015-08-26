@@ -1,0 +1,116 @@
+/* Style CSS de la page cv_index.php */
+
+body{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	/*font-family: "Times New Roman", Times, serif;*/
+	/*background-color: lemonChiffon;*/
+	background-image: url(../img/background1.jpg);
+	background-attachment : fixed;
+	color: #000026;
+}
+a{
+	text-decoration: none;
+	color: navy;
+}
+a:hover{
+	color: #711419;
+}
+ul{
+	list-style-type: disc;
+	text-align: left;
+}
+img{
+	width: 90px;
+}
+#container{
+	width:1000px; 
+	margin:0 auto;
+	padding: 5px 5px 10px 10px;
+	border: solid 2px yellow;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.7);
+	/*-ms-filter:"alpha(opacity=50)";	//Non reconnu par CSS3
+	filter:alpha(opacity=70);
+    -moz-opacity:0.7;
+    opacity: 0.7;*/
+
+}
+#topbar, #main{
+	width:auto; 
+	display:block; 
+}
+#topbar {
+	height:80px;
+}
+#column_right, #column_left, #presentation, #centreInteret{
+	border: 1px solid green;
+	border-radius: 10px;
+}
+#column_right, #column_left, #presentation{
+	width:470px;
+	float:left;	
+}
+#column_right, #column_left{
+	text-align: left;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+#column_left, #centreInteret, #presentation{
+	margin-right:15px; 
+	margin-left: 5px;
+}
+#presentation{
+	text-align:center;
+}
+#centreInteret{
+	width:700px;
+	margin: auto;
+}
+ul{
+	list-style-type: circle;
+}
+/*
+.spacer, permet de faire deux colonne dans #container
+*/
+.spacer{
+	clear:both; 
+	height:10px; 
+	display:block;
+}
+#footer{
+	width:570px; 
+	height:100%;
+	text-align: center;
+	margin: auto;
+	margin-top: 25px;
+	padding-bottom: 20px;
+	margin-bottom: 25px;
+	border: solid 2px yellow;
+	border-radius: 10px;
+	background-color: white;
+	/*filter:alpha(opacity=70);
+    -moz-opacity:0.7;*/
+    opacity: 0.7;
+}
+/*#photo{
+	width:100px; 
+	padding-top: 25px;
+	padding-right: 25px;
+}*/
+#titre, .titre2{
+	text-align: center;
+	font-family: 'Crafty Girls', cursive;
+	text-shadow: 4px 4px 4px #aaa;
+}
+#titre{
+	clear:both;
+	padding-top: 25px;
+	text-transform: uppercase;
+}
+.titre2{
+	font-variant: small-caps;
+}
+.bleue{
+	color: navy;
+}
+
